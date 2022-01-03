@@ -2,8 +2,8 @@
 
 body {
   display: flex;
-  padding-top:40px;
-  padding-bottom:40px;
+  padding-top:20px;
+  padding-bottom:100px;
   background-image:url(./dhsport-banner2.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -17,8 +17,8 @@ a{
 main{
   display: flex;
   width:100vw;
-  height: 100vh;
-  justify-content: center;
+  height: 85vh;
+  justify-content:center;
   align-items: center;
 }
 
