@@ -31,4 +31,4 @@ function imc(){
         resultado.textContent = 'Preencha todos os campos!!!';
     }
 }
-calcular.addEventListener('click', imc);
+console.log(calcular.addEventListener("click", imc));
