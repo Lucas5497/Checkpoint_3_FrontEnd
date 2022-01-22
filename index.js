@@ -1,9 +1,7 @@
-const calcular = document.getElementById('calcular');
+console.log("Hello word");const calcular = document.getElementById('calcular');
 
 
 function imc(){
-
-    
     const nome = document.getElementById('nome').value;
     const altura = document.getElementById('altura').value;
     const peso = document.getElementById('peso').value;
@@ -34,4 +32,4 @@ function imc(){
         resultado.textContent = 'Preencha todos os campos!!!';
     }
 }
-calcular.addEventListener("click", imc);
+console.log(calcular.addEventListener("click", imc));
